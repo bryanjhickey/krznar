@@ -29,7 +29,7 @@ email:
     subject: Yay! Someone just requested a free trial.
     automagic: true
   -
-    to: {{ client_email }}
+    to: "{{ client_email }}"
     reply_to: no-reply@krznarstrength.com
     subject: Hey {{ client_name }} - You've scored yourself a free trial!
     template: free-trial
