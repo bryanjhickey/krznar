@@ -1,0 +1,30 @@
+title: Trial
+honeypot: mouthbreather
+fields:
+  client_name:
+    display: Your Name
+    validate: required
+  client_contact_number:
+    display: Contact Number
+    validate: required|digits:10
+  client_email:
+    display: Email
+    validate: required|email
+  client_goal:
+    display: What goal are you wanting to achieve?
+    validate: required
+columns:
+  - client_name
+  - client_contact_number
+  - client_email
+  - client_goal
+metrics:
+  - 
+    type: total
+    label: Total Responses
+email:
+  - 
+    to: hello@happywidget.co
+    reply_to: no-reply@krznarstrength.com
+    subject: Yay! Someone just requested a free trial.
+    automagic: true

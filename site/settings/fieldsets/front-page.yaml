@@ -1,0 +1,12 @@
+title: Front Page
+create_title: Front Page
+fields:
+  opening_section:
+    type: textarea
+    display: Opening Section
+  pull_quote:
+    type: text
+    display: 'Pull Quote '
+  closing_section:
+    type: textarea
+    display: Closing Section

@@ -1,0 +1,7 @@
+driver: mail
+from_email: no-reply@krznarstrength.com
+from_name: Krznar Strength
+port: 587
+encryption: tls
+username: ""
+password: ""
