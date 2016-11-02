@@ -25,7 +25,7 @@
 
     {{ else }}
 
-    {{ form:create in="trial" attr="id='frm'" }}
+    {{ form:create in="trial" attr="onSubmit='document.getElementById("send").disabled=true;'" }}
 
         {{ if errors }}
 	    <div class="row">
