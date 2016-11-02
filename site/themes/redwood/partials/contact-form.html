@@ -25,7 +25,7 @@
 
     {{ else }}
 
-    {{ form:create in="trial" attr="onSubmit='document.getElementById("send").disabled=true;'" }}
+    {{ form:create in="trial" }}
 
         {{ if errors }}
 	    <div class="row">
@@ -84,7 +84,7 @@
 
 		<div class="row">
 			<div class="small-12 columns">
-				<button value="submit" id="send" class="button">GET YOUR FREE TRIAL</button>
+				<button value="submit" class="button">GET YOUR FREE TRIAL</button>
 			</div>	
 		</div>
 
