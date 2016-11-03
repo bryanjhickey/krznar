@@ -8,6 +8,7 @@ routes:
   /register: auth/register
   /forgot-password: auth/password-forgot
   /reset-password: auth/password-reset
+  /credits: site-credits
 collections: [ ]
 taxonomies: [ ]
 redirect: [ ]
