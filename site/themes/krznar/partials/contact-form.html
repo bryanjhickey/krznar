@@ -1,0 +1,95 @@
+{{ form:set is="trial" }}
+
+    {{ if {form:success} }}
+    <div class="row">
+		<div class="small-12 columns">
+        	<div class="callout success">
+            	<p>Your free trial request has been submitted successfully.</p>
+            	<hr>
+            	{{ form:submission }}
+            		<p>We've sent you an email. In the meantime here is what you told us.</p>
+					<dl>
+						<dt>Your Name</dt>
+						<dd>{{ client_name }}</dd>
+						<dt>Your Contact Number</dt>
+						<dd>{{ client_contact_number }}</dd>
+						<dt>Your Email</dt>
+						<dd>{{ client_email }}</dd>
+						<dt>Your Main Goal for Trainng</dt>
+						<dd>{{ client_goal }}</dd>
+					</dl>
+        		{{ /form:submission }}
+        	</div>
+        </div>
+	</div>
+
+    {{ else }}
+
+    {{ form:create in="trial" }}
+
+        {{ if errors }}
+	    <div class="row">
+			<div class="small-12 columns">
+	        	<div class="callout alert">
+	           		{{ errors }}
+	               		{{ value }}<br>
+	           		{{ /errors }}
+	        	</div>
+			</div>
+		</div>
+		{{ /if }}
+
+		<div class="row">
+			<div class="small-12 columns">
+				<label>Your Name
+				<input class="input" name="client_name" type="text" value="{{ old:client_name }}" placeholder="Alex Smith" required>
+				</label>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="small-12 columns">
+				<label>Your Contact NUmber
+				<input class="input" name="client_contact_number" type="tel" value="{{ old:client_contact_number }}" placeholder="0424000000" required>
+				</label>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="small-12 columns">
+				<label>Your Email
+				<input class="input" name="client_email" type="email" value ="{{ old:client_email }}" placeholder="a.smith@example.com" required>
+				</label>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="small-12 columns">
+				<label>What goal are you wanting to achieve
+				<select name="client_goal">
+					<option value="" disaiples selected>-- please select an option --</option>
+					<option value="Powerlifting / Competition Training">Powerlifting / Competition Training</option>
+					<option value="Fitness or Weightloss">Fitness or Weightloss</option>
+					<option value="Sports Conditioning">Sports Conditioning</option>
+					<option value="Strength and Wellness">Strength and Wellness</option>
+					<option value="Rehabilitation and Injury Prevention">Rehabilitation and Injury Prevention</option>
+				</select>
+				</label>
+			</div>	
+		</div>
+		<style>
+			.mouthbreather {display: none}
+		</style>
+		<input type="text" name="mouthbreather" class="mouthbreather" />
+
+		<div class="row">
+			<div class="small-12 columns">
+				<button value="submit" class="button">GET YOUR FREE TRIAL</button>
+			</div>	
+		</div>
+
+		{{ /form:create }}
+
+	{{ /if }}
+
+{{ /form:set }}
