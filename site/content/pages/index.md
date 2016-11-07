@@ -13,4 +13,4 @@ Getting stronger is the key to a longer, healthier and more productive life. And
 <hr class="hr__lead">
 Krznar Strength Coaching operates out of [Renegade MMA](https://renegademma.com.au), a multiple purpose facility in Kensington which has [the very best in powerlifting equipment](http://www.eleiko.se/en/index.aspx) to meet competition standards. It's a great atmosphere to train in, with great coaching and a real community.
 
-Anthony Krznar is a [Powerlifting Australia](https://powerliftingaustralia.com) certified strength coaching. He is an Australian Powerlifting record holder with years of competition experience at the highest level. Anthony's technical ability is matched by his enthusiasm for helping people achieve their goals through discipline, encouragement and great coaching.
+Anthony Krznar is a [Powerlifting Australia](https://powerliftingaustralia.com) certified coach. He is an Australian Powerlifting record holder with years of competition experience at the highest level. Anthony's technical ability is matched by his enthusiasm for helping people achieve their goals through discipline, encouragement and great coaching.
