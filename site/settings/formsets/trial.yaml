@@ -24,7 +24,7 @@ metrics:
     label: Total Responses
 email:
   - 
-    to: hello@happywidget.co
+    to: anthony@krznarstrength.com
     reply_to: no-reply@krznarstrength.com
     subject: Yay! Someone just requested a free trial.
     automagic: true
