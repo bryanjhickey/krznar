@@ -3,7 +3,7 @@ locales:
   en:
     full: en_AU
     name: English
-    url: http://krznarstrength.com/
+    url: http://dev.krznarstrength.com/
 timezone: Australia/Melbourne
 date_format: F jS, Y
 default_extension: md
