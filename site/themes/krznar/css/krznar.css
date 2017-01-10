@@ -4628,6 +4628,8 @@ p a {
   padding: 0;
   margin: 0;
   color: #fefefe; }
+  .banner__text--anchor:hover {
+    color: #fefefe; }
 
 .banner__text--primary {
   padding: 0;
