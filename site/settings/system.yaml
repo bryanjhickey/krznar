@@ -1,7 +1,44 @@
-app_key: hGUuvkU2B9QZ6YtyQHrHKwLCb6Krax7f
+license_key: 0dae1454-8e1d-4225-ae7f-8cde353dd971
 locales:
   en:
     full: en_AU
     name: English
-    url: http://krznarstrength.dev/
-license_key: 0dae1454-8e1d-4225-ae7f-8cde353dd971
+    url: http://krznarstrength.com/
+timezone: Australia/Melbourne
+date_format: F jS, Y
+default_extension: md
+filesystems:
+  content:
+    driver: local
+    root: site/content
+  storage:
+    driver: local
+    root: site/storage
+  users:
+    driver: local
+    root: site/users
+  themes:
+    driver: local
+    root: site/themes
+    url: /site/themes
+app_key: hGUuvkU2B9QZ6YtyQHrHKwLCb6Krax7f
+redactor:
+  - 
+    name: Standard
+    settings:
+      buttons:
+        - formatting
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - html
+  - 
+    name: Basic
+    settings:
+      buttons:
+        - bold
+        - italic
+csrf_exclude: [ ]
+send_powered_by_header: true
+ensure_unique_ids: true
