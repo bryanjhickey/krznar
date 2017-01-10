@@ -429,7 +429,7 @@ button {
   display: none !important; }
 
 .row {
-  max-width: 75rem;
+  max-width: 81.25rem;
   margin-left: auto;
   margin-right: auto; }
   .row::before, .row::after {
@@ -1284,7 +1284,7 @@ a {
     border: 0; }
 
 hr {
-  max-width: 75rem;
+  max-width: 81.25rem;
   height: 0;
   border-right: 0;
   border-top: 0;
@@ -3179,7 +3179,7 @@ html.is-reveal-open body {
   @media screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 75rem; } }
+      max-width: 81.25rem; } }
   @media screen and (min-width: 40em) {
     .reveal .reveal {
       left: auto;
@@ -3190,15 +3190,15 @@ html.is-reveal-open body {
   @media screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 75rem; } }
+      max-width: 81.25rem; } }
   @media screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 75rem; } }
+      max-width: 81.25rem; } }
   @media screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 75rem; } }
+      max-width: 81.25rem; } }
   .reveal.full {
     top: 0;
     left: 0;
